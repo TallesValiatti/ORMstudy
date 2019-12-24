@@ -757,26 +757,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\talles.valiatti\\.nuget\\packages\\": {}
+    "/Users/tallesvaliatti/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\ORM\\ORM.entity\\ORM.entity.csproj",
+      "projectUniqueName": "/Users/tallesvaliatti/Projects/ORM/ORMstudy/ORM.entity/ORM.entity.csproj",
       "projectName": "ORM.entity",
-      "projectPath": "C:\\Projects\\ORM\\ORM.entity\\ORM.entity.csproj",
-      "packagesPath": "C:\\Users\\talles.valiatti\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\ORM\\ORM.entity\\obj\\",
+      "projectPath": "/Users/tallesvaliatti/Projects/ORM/ORMstudy/ORM.entity/ORM.entity.csproj",
+      "packagesPath": "/Users/tallesvaliatti/.nuget/packages/",
+      "outputPath": "/Users/tallesvaliatti/Projects/ORM/ORMstudy/ORM.entity/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\talles.valiatti\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/tallesvaliatti/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -813,7 +815,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
       }
     }
   }

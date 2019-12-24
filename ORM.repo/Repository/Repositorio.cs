@@ -68,7 +68,7 @@ namespace ORM.repo.Repository
             {
                 throw new ArgumentNullException("entity");
             }
-            context.Update(entity);
+            entities.Update(entity);
             context.SaveChanges();
         }
     }

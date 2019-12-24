@@ -3,3 +3,6 @@
 https://www.c-sharpcorner.com/article/onion-architecture-in-asp-net-core-mvc/
 
 http://www.postgresqltutorial.com/postgresql-create-table/
+
+//ENTITY BASICO
+https://www.alura.com.br/conteudo/entity-framework-core-banco-pre-existente-parte1

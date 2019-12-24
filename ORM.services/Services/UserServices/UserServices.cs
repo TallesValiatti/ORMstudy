@@ -17,7 +17,6 @@ namespace ORM.services.Services
 
         #region Methods
 
-
         public UserServices(IRepository<UserModel> userRepository)
         {
             this._userRepository = userRepository;

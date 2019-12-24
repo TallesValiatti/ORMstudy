@@ -15,7 +15,9 @@ namespace ORM.repo.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            new UserMap(modelBuilder.Entity<UserModel>());
+            //new UserMap(modelBuilder.Entity<UserModel>());
+            modelBuilder.ApplyConfiguration(new UserMap());
+
             //new UserProfileMap(modelBuilder.Entity<UserProfile>());
         }
     }
