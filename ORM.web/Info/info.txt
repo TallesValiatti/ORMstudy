@@ -1,0 +1,5 @@
+﻿http://www.macoratti.net/17/05/aspcore_pgsqlef1.htm
+
+https://www.c-sharpcorner.com/article/onion-architecture-in-asp-net-core-mvc/
+
+http://www.postgresqltutorial.com/postgresql-create-table/

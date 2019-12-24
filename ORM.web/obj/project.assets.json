@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "ORM.data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ORM.data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ORM.data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ORM.data/1.0.0": {
+      "type": "project",
+      "path": "../ORM.data/ORM.data.csproj",
+      "msbuildProject": "../ORM.data/ORM.data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "ORM.data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\talles.valiatti\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\ORM\\ORM.data\\ORM.data.csproj": {
+              "projectPath": "C:\\Projects\\ORM\\ORM.data\\ORM.data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
