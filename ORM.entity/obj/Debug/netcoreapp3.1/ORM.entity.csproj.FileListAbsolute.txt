@@ -14,3 +14,11 @@ C:/Projects/ORM/ORM.entity/obj/Debug/netcoreapp3.1/ORM.entity.pdb
 /Users/tallesvaliatti/Projects/ORM/ORMstudy/ORM.entity/obj/Debug/netcoreapp3.1/ORM.entity.AssemblyInfo.cs
 /Users/tallesvaliatti/Projects/ORM/ORMstudy/ORM.entity/obj/Debug/netcoreapp3.1/ORM.entity.dll
 /Users/tallesvaliatti/Projects/ORM/ORMstudy/ORM.entity/obj/Debug/netcoreapp3.1/ORM.entity.pdb
+C:\Projects\ORMstudy\ORM.entity\bin\Debug\netcoreapp3.1\ORM.entity.deps.json
+C:\Projects\ORMstudy\ORM.entity\bin\Debug\netcoreapp3.1\ORM.entity.dll
+C:\Projects\ORMstudy\ORM.entity\bin\Debug\netcoreapp3.1\ORM.entity.pdb
+C:\Projects\ORMstudy\ORM.entity\obj\Debug\netcoreapp3.1\ORM.entity.csprojAssemblyReference.cache
+C:\Projects\ORMstudy\ORM.entity\obj\Debug\netcoreapp3.1\ORM.entity.AssemblyInfoInputs.cache
+C:\Projects\ORMstudy\ORM.entity\obj\Debug\netcoreapp3.1\ORM.entity.AssemblyInfo.cs
+C:\Projects\ORMstudy\ORM.entity\obj\Debug\netcoreapp3.1\ORM.entity.dll
+C:\Projects\ORMstudy\ORM.entity\obj\Debug\netcoreapp3.1\ORM.entity.pdb

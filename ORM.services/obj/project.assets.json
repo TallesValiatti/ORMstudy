@@ -793,35 +793,33 @@
     ]
   },
   "packageFolders": {
-    "/Users/tallesvaliatti/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\talles.valiatti\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tallesvaliatti/Projects/ORM/ORMstudy/ORM.services/ORM.services.csproj",
+      "projectUniqueName": "C:\\Projects\\ORMstudy\\ORM.services\\ORM.services.csproj",
       "projectName": "ORM.services",
-      "projectPath": "/Users/tallesvaliatti/Projects/ORM/ORMstudy/ORM.services/ORM.services.csproj",
-      "packagesPath": "/Users/tallesvaliatti/.nuget/packages/",
-      "outputPath": "/Users/tallesvaliatti/Projects/ORM/ORMstudy/ORM.services/obj/",
+      "projectPath": "C:\\Projects\\ORMstudy\\ORM.services\\ORM.services.csproj",
+      "packagesPath": "C:\\Users\\talles.valiatti\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\ORMstudy\\ORM.services\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/tallesvaliatti/.config/NuGet/NuGet.Config"
+        "C:\\Users\\talles.valiatti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/Users/tallesvaliatti/Projects/ORM/ORMstudy/ORM.repo/ORM.repo.csproj": {
-              "projectPath": "/Users/tallesvaliatti/Projects/ORM/ORMstudy/ORM.repo/ORM.repo.csproj"
+            "C:\\Projects\\ORMstudy\\ORM.repo\\ORM.repo.csproj": {
+              "projectPath": "C:\\Projects\\ORMstudy\\ORM.repo\\ORM.repo.csproj"
             }
           }
         }
@@ -849,7 +847,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -33,17 +33,6 @@ namespace ORM.web.Controllers
             {
                 var lstUsers = _userService.GetAll();
 
-                var newUser = new UserModel()
-                {
-                    name = lstUsers.Count().ToString(),
-                    password = lstUsers.Count().ToString(),
-                    email = lstUsers.Count().ToString()
-                };
-
-                _userService.Insert(newUser);
-
-                lstUsers = _userService.GetAll();
-
                 return Ok(lstUsers);
             }
             catch (Exception ex)
