@@ -1,7 +1,8 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -27,6 +28,7 @@ namespace ORM.web.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public ActionResult GetAll()
         {
             try
@@ -46,6 +48,7 @@ namespace ORM.web.Controllers
 
         [Route("{id}")]
         [HttpGet]
+        [Authorize]
         public ActionResult Get(long id)
         {
             try
@@ -62,6 +65,7 @@ namespace ORM.web.Controllers
             }
         }
         [HttpPost]
+        [Authorize]
         public ActionResult Post([FromBody] UserModel entity)
         {
             try
