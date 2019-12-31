@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using ORM.entity.Models;
 using ORM.services.Services;
 using ORM.web.Controllers.BaseController;
@@ -19,13 +20,14 @@ namespace ORM.web.Controllers
        
         #region Services
         private readonly IUserService _userService;
-
+        private readonly ILogger<UserController> _log;
         #endregion
 
-        public UserController(IUserService userService)
+        public UserController(IUserService userService, ILogger<UserController> log)
         {
             this._userService = userService;
-        }
+            this._log = log;
+    }
 
         [HttpGet]
         [Authorize]
@@ -35,10 +37,13 @@ namespace ORM.web.Controllers
             {
                 var lstUsers = _userService.GetAll();
 
+                _log.LogInformation("Listagem de todos os Usuarios: " + lstUsers.Count() + " itens");
+
                 return Ok(lstUsers);
             }
             catch (Exception ex)
             {
+                _log.LogError(ex.Message);
                 return StatusCode(StatusCodes.Status500InternalServerError, new
                 {
                     Error = ex.Message
@@ -54,10 +59,14 @@ namespace ORM.web.Controllers
             try
             {
                 var obj = _userService.Get(id);
+
+                _log.LogInformation("Listagem do usuarios com id: " + id);
+
                 return Ok(obj);
             }
             catch (Exception ex)
             {
+                _log.LogError(ex.Message);
                 return StatusCode(StatusCodes.Status500InternalServerError, new
                 {
                     Error = ex.Message
@@ -71,18 +80,12 @@ namespace ORM.web.Controllers
             try
             {
                 _userService.Insert(entity);
+                _log.LogInformation("Inserindo usuario");
                 return Ok();
-            }
-
-            catch (DbUpdateException e)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, new
-                {
-                    Error = e.Message
-                });
             }
             catch (Exception ex)
             {
+                _log.LogError(ex.Message);
                 return StatusCode(StatusCodes.Status500InternalServerError, new
                 {
                     Error = ex.Message

@@ -1,0 +1,84 @@
+2019-12-31T10:43:22.2463457-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2019-12-31T10:43:22.2686926-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2019-12-31T10:43:22.2749667-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2019-12-31T10:43:22.5387358-03:00 800000ce-0003-fa00-b63f-84710c7967bb [INF]  ****** request ******* 
+PATH: /weatherforecast 
+DATE: 31/12/2019 - 10:43 
+BODY:  (dc975ee9)
+2019-12-31T10:43:22.7894041-03:00 80000127-0000-f900-b63f-84710c7967bb [INF]  ****** request ******* 
+PATH: /favicon.ico 
+DATE: 31/12/2019 - 10:43 
+BODY:  (3f29f2f5)
+2019-12-31T10:43:28.5958084-03:00 8000007b-0002-f700-b63f-84710c7967bb [INF]  ****** request ******* 
+PATH: /login 
+DATE: 31/12/2019 - 10:43 
+BODY: {
+	"name":"talles",
+	"password":"1235"
+} (c319b9b9)
+2019-12-31T10:43:50.3833146-03:00 8000007c-0002-f700-b63f-84710c7967bb [INF]  ****** request ******* 
+PATH: /login 
+DATE: 31/12/2019 - 10:43 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (e204922e)
+2019-12-31T10:44:02.0115327-03:00 8000007d-0002-f700-b63f-84710c7967bb [INF]  ****** request ******* 
+PATH: /user 
+DATE: 31/12/2019 - 10:44 
+BODY:  (184ee480)
+2019-12-31T10:44:02.8282236-03:00 8000007d-0002-f700-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 20 itens (35549300)
+2019-12-31T10:45:06.0602030-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2019-12-31T10:45:06.0770946-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2019-12-31T10:45:06.0793057-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2019-12-31T10:45:06.2569189-03:00 800000ff-0001-fa00-b63f-84710c7967bb [INF]  ****** request ******* 
+PATH: /weatherforecast 
+DATE: 31/12/2019 - 10:45 
+BODY:  (adb392c5)
+2019-12-31T10:45:06.4090685-03:00 800000d0-0003-fa00-b63f-84710c7967bb [INF]  ****** request ******* 
+PATH: /favicon.ico 
+DATE: 31/12/2019 - 10:45 
+BODY:  (692c9063)
+2019-12-31T10:45:09.8128553-03:00 800000b1-0000-fe00-b63f-84710c7967bb [INF]  ****** request ******* 
+PATH: /user 
+DATE: 31/12/2019 - 10:45 
+BODY:  (ae419baf)
+2019-12-31T10:45:10.7823347-03:00 800000b1-0000-fe00-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+2019-12-31T10:46:24.6897962-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2019-12-31T10:46:24.7047795-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2019-12-31T10:46:24.7154385-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2019-12-31T10:46:24.8910497-03:00 800000b3-0000-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+DATE: 31/12/2019 - 10:46 
+BODY:  (8c22bd01)
+2019-12-31T10:46:25.0634622-03:00 80000101-0001-fa00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+DATE: 31/12/2019 - 10:46 
+BODY:  (b2e0db12)
+2019-12-31T10:46:25.9587021-03:00 8000007c-0003-f800-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+DATE: 31/12/2019 - 10:46 
+BODY:  (06e5744e)
+2019-12-31T10:46:28.7354796-03:00 8000007c-0003-f800-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 20 itens (35549300)
+2019-12-31T10:50:20.9111780-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2019-12-31T10:50:20.9228983-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2019-12-31T10:50:20.9252378-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2019-12-31T10:50:21.1016766-03:00 800000ac-0002-fa00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+DATE: 31/12/2019 - 10:50 
+BODY:  (6ba06896)
+2019-12-31T10:50:21.2566209-03:00 800000b5-0000-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+DATE: 31/12/2019 - 10:50 
+BODY:  (9f5977eb)
+2019-12-31T10:50:33.2357798-03:00 8000007e-0003-f800-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user/4 
+DATE: 31/12/2019 - 10:50 
+BODY:  (24dae281)
+2019-12-31T10:50:36.4979635-03:00 8000007e-0003-f800-b63f-84710c7967bb [INF] Listagem do usuarios com id: 4 (bed2de45)

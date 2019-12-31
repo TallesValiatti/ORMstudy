@@ -4,3 +4,4 @@ Features:
 - Entity Framework Core
 - Onion Architecture 
 - JWT auth
+- Requests middleware logging (to text file)

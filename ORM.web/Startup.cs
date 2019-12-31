@@ -18,6 +18,7 @@ using ORM.repo.Context;
 using ORM.repo.Repository;
 using ORM.services.Services;
 using ORM.services.Services.TokenService;
+using ORM.web.Middlewares;
 
 namespace ORM.web
 {
@@ -62,12 +63,14 @@ namespace ORM.web
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
+
+           
 
             app.UseHttpsRedirection();
 
@@ -75,6 +78,9 @@ namespace ORM.web
 
             app.UseAuthentication();
             app.UseAuthorization();
+
+            loggerFactory.AddFile("logs/log_{Date}.txt");
+            app.UseMiddleware<loggingRequestResponseMiddleware>();
 
             app.UseEndpoints(endpoints =>
             {
