@@ -1,6 +1,7 @@
 ﻿    using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -35,6 +36,10 @@ namespace ORM.web.Controllers
         {
             try
             {
+                //Claims
+                var a = User.Identity as ClaimsIdentity;
+                var claims = a.Claims;
+
                 var lstUsers = _userService.GetAll();
 
                 _log.LogInformation("Listagem de todos os Usuarios: " + lstUsers.Count() + " itens");

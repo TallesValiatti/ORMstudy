@@ -82,3 +82,62 @@ PATH: /user/4
 DATE: 31/12/2019 - 10:50 
 BODY:  (24dae281)
 2019-12-31T10:50:36.4979635-03:00 8000007e-0003-f800-b63f-84710c7967bb [INF] Listagem do usuarios com id: 4 (bed2de45)
+2019-12-31T11:04:05.6234903-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2019-12-31T11:04:05.6416007-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2019-12-31T11:04:05.6441736-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2019-12-31T11:04:05.8196985-03:00 80000103-0001-fa00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2019-12-31T11:04:05.9854209-03:00 8000006b-0003-f700-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2019-12-31T11:04:18.6565355-03:00 80000106-0001-fa00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2019-12-31T11:04:33.6822309-03:00 80000107-0001-fa00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2019-12-31T11:05:07.3489642-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2019-12-31T11:05:07.3679981-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2019-12-31T11:05:07.3708722-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2019-12-31T11:05:07.5375817-03:00 800000b3-0000-f700-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2019-12-31T11:05:07.6977525-03:00 80000081-0003-f800-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2019-12-31T11:05:31.7387916-03:00 80000109-0001-fa00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2019-12-31T11:15:44.5265544-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2019-12-31T11:15:44.5405075-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2019-12-31T11:15:44.5427875-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2019-12-31T11:15:44.7059442-03:00 800000b5-0000-f700-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2019-12-31T11:15:44.8785752-03:00 800000b7-0000-f700-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2019-12-31T11:15:48.4685645-03:00 80000080-0002-f700-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2019-12-31T11:16:02.6067253-03:00 80000081-0002-f700-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)

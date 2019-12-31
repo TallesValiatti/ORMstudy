@@ -19,7 +19,8 @@ namespace ORM.services.Services.TokenService
                 Subject = new ClaimsIdentity(new Claim[]
                     {
                         new Claim(ClaimTypes.Name, user.name.ToString()),
-                        new Claim(ClaimTypes.Role, user.name.ToString())
+                        new Claim(ClaimTypes.Role, user.name.ToString()),
+                        new Claim("teste", "teste1")
                     }
                 ),
                 Expires = DateTime.UtcNow.AddMinutes(3),
