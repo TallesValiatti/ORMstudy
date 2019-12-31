@@ -1,0 +1,6 @@
+Simple study API
+
+Features:
+- Entity Framework Core
+- Onion Architecture 
+- JWT auth
