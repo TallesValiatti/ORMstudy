@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ORM.entity\ORM.entity.csproj" />
+    <ProjectReference Include="..\ORM.entity\ORM.data.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1555,7 +1555,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "ORM.entity/1.0.0": {
+      "ORM.data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -1564,10 +1564,10 @@
           "Serilog.Extensions.Logging.File": "1.1.0"
         },
         "compile": {
-          "bin/placeholder/ORM.entity.dll": {}
+          "bin/placeholder/ORM.data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ORM.entity.dll": {}
+          "bin/placeholder/ORM.data.dll": {}
         }
       }
     }
@@ -5457,15 +5457,15 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "ORM.entity/1.0.0": {
+    "ORM.data/1.0.0": {
       "type": "project",
-      "path": "../ORM.entity/ORM.entity.csproj",
-      "msbuildProject": "../ORM.entity/ORM.entity.csproj"
+      "path": "../ORM.entity/ORM.data.csproj",
+      "msbuildProject": "../ORM.entity/ORM.data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ORM.entity >= 1.0.0",
+      "ORM.data >= 1.0.0",
       "Serilog.Extensions.Logging >= 3.0.1",
       "Serilog.Extensions.Logging.File >= 1.1.0"
     ]
@@ -5496,8 +5496,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Projects\\ORMstudy\\ORM.entity\\ORM.entity.csproj": {
-              "projectPath": "C:\\Projects\\ORMstudy\\ORM.entity\\ORM.entity.csproj"
+            "C:\\Projects\\ORMstudy\\ORM.entity\\ORM.data.csproj": {
+              "projectPath": "C:\\Projects\\ORMstudy\\ORM.entity\\ORM.data.csproj"
             }
           }
         }

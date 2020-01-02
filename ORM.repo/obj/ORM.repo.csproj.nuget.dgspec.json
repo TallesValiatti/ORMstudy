@@ -4,12 +4,12 @@
     "C:\\Projects\\ORMstudy\\ORM.repo\\ORM.repo.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ORMstudy\\ORM.entity\\ORM.entity.csproj": {
+    "C:\\Projects\\ORMstudy\\ORM.entity\\ORM.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ORMstudy\\ORM.entity\\ORM.entity.csproj",
-        "projectName": "ORM.entity",
-        "projectPath": "C:\\Projects\\ORMstudy\\ORM.entity\\ORM.entity.csproj",
+        "projectUniqueName": "C:\\Projects\\ORMstudy\\ORM.entity\\ORM.data.csproj",
+        "projectName": "ORM.data",
+        "projectPath": "C:\\Projects\\ORMstudy\\ORM.entity\\ORM.data.csproj",
         "packagesPath": "C:\\Users\\talles.valiatti\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\ORMstudy\\ORM.entity\\obj\\",
         "projectStyle": "PackageReference",
@@ -93,8 +93,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Projects\\ORMstudy\\ORM.entity\\ORM.entity.csproj": {
-                "projectPath": "C:\\Projects\\ORMstudy\\ORM.entity\\ORM.entity.csproj"
+              "C:\\Projects\\ORMstudy\\ORM.entity\\ORM.data.csproj": {
+                "projectPath": "C:\\Projects\\ORMstudy\\ORM.entity\\ORM.data.csproj"
               }
             }
           }

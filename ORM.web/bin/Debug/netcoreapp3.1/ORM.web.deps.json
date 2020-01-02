@@ -2065,22 +2065,22 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "ORM.entity/1.0.0": {
+      "ORM.data/1.0.0": {
         "dependencies": {
           "Npgsql.EntityFrameworkCore.PostgreSQL": "3.1.0",
           "Serilog.Extensions.Logging": "3.0.1",
           "Serilog.Extensions.Logging.File": "1.1.0"
         },
         "runtime": {
-          "ORM.entity.dll": {}
+          "ORM.data.dll": {}
         },
         "compile": {
-          "ORM.entity.dll": {}
+          "ORM.data.dll": {}
         }
       },
       "ORM.repo/1.0.0": {
         "dependencies": {
-          "ORM.entity": "1.0.0",
+          "ORM.data": "1.0.0",
           "Serilog.Extensions.Logging": "3.0.1",
           "Serilog.Extensions.Logging.File": "1.1.0"
         },
@@ -4961,7 +4961,7 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "ORM.entity/1.0.0": {
+    "ORM.data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
