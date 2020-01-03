@@ -115,9 +115,11 @@ C:\Projects\ORMstudy\ORM.tests\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile
 C:\Projects\ORMstudy\ORM.tests\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Projects\ORMstudy\ORM.tests\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 C:\Projects\ORMstudy\ORM.tests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
-C:\Projects\ORMstudy\ORM.tests\bin\Debug\netcoreapp3.1\ORM.data.dll
 C:\Projects\ORMstudy\ORM.tests\bin\Debug\netcoreapp3.1\ORM.repo.dll
 C:\Projects\ORMstudy\ORM.tests\bin\Debug\netcoreapp3.1\ORM.services.dll
 C:\Projects\ORMstudy\ORM.tests\bin\Debug\netcoreapp3.1\ORM.services.pdb
-C:\Projects\ORMstudy\ORM.tests\bin\Debug\netcoreapp3.1\ORM.data.pdb
 C:\Projects\ORMstudy\ORM.tests\bin\Debug\netcoreapp3.1\ORM.repo.pdb
+C:\Projects\ORMstudy\ORM.tests\bin\Debug\netcoreapp3.1\ORM.entity.dll
+C:\Projects\ORMstudy\ORM.tests\bin\Debug\netcoreapp3.1\ORM.entity.pdb
+C:\Projects\ORMstudy\ORM.tests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Projects\ORMstudy\ORM.tests\bin\Debug\netcoreapp3.1\Moq.dll

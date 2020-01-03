@@ -1,7 +1,9 @@
 Simple study API
 
 Features:
+- Asp.Net Core 3.1
 - Entity Framework Core
 - Architecture based on onion architecture 
 - JWT authentication and policies(claims and roles) authorization
 - Requests middleware logging (to text file)
+- Simple unit tests using xUnit.
