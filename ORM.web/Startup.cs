@@ -14,11 +14,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
+using ORM.entity.Permissions;
 using ORM.repo.Context;
 using ORM.repo.Repository;
 using ORM.services.Services;
 using ORM.services.Services.TokenService;
 using ORM.web.Middlewares;
+using static ORM.entity.Permissions.Permissions;
 
 namespace ORM.web
 {
@@ -59,7 +61,12 @@ namespace ORM.web
                };
            });
 
-
+            services.AddAuthorization(config =>
+            {
+                //add policies localized on ORM.entity.Permissions namespace
+                config.AddPolicy(Permissions.canGetAllUsers, Policies.Policies.canGetAllUsers());
+                config.AddPolicy(Permissions.canGetSingleUser, Policies.Policies.canGetSingleUser());
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -69,8 +76,6 @@ namespace ORM.web
             {
                 app.UseDeveloperExceptionPage();
             }
-
-           
 
             app.UseHttpsRedirection();
 
@@ -86,8 +91,6 @@ namespace ORM.web
             {
                 endpoints.MapControllers();
             });
-
-           
         }
     }
 }

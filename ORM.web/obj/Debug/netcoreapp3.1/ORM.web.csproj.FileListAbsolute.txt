@@ -327,5 +327,5 @@ C:\Projects\ORMstudy\ORM.web\bin\Debug\netcoreapp3.1\Serilog.Sinks.Async.dll
 C:\Projects\ORMstudy\ORM.web\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
 C:\Projects\ORMstudy\ORM.web\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
 C:\Projects\ORMstudy\ORM.web\obj\Debug\netcoreapp3.1\ORM.web.MvcApplicationPartsAssemblyInfo.cache
-C:\Projects\ORMstudy\ORM.web\bin\Debug\netcoreapp3.1\ORM.data.dll
-C:\Projects\ORMstudy\ORM.web\bin\Debug\netcoreapp3.1\ORM.data.pdb
+C:\Projects\ORMstudy\ORM.web\bin\Debug\netcoreapp3.1\ORM.entity.dll
+C:\Projects\ORMstudy\ORM.web\bin\Debug\netcoreapp3.1\ORM.entity.pdb

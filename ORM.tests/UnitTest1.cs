@@ -16,7 +16,7 @@ namespace ORM.tests
             this._userServices = _userServices;
         }
 
-        [Fact]
+        [Fact(DisplayName = "can_get_all_users")]
         public void can_get_all_users()
         {
             var lstUsers = _userServices.GetAll();

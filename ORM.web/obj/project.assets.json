@@ -2557,7 +2557,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "ORM.data/1.0.0": {
+      "ORM.entity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -2566,17 +2566,17 @@
           "Serilog.Extensions.Logging.File": "1.1.0"
         },
         "compile": {
-          "bin/placeholder/ORM.data.dll": {}
+          "bin/placeholder/ORM.entity.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ORM.data.dll": {}
+          "bin/placeholder/ORM.entity.dll": {}
         }
       },
       "ORM.repo/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "ORM.data": "1.0.0",
+          "ORM.entity": "1.0.0",
           "Serilog.Extensions.Logging": "3.0.1",
           "Serilog.Extensions.Logging.File": "1.1.0"
         },
@@ -8041,10 +8041,10 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "ORM.data/1.0.0": {
+    "ORM.entity/1.0.0": {
       "type": "project",
-      "path": "../ORM.entity/ORM.data.csproj",
-      "msbuildProject": "../ORM.entity/ORM.data.csproj"
+      "path": "../ORM.entity/ORM.entity.csproj",
+      "msbuildProject": "../ORM.entity/ORM.entity.csproj"
     },
     "ORM.repo/1.0.0": {
       "type": "project",

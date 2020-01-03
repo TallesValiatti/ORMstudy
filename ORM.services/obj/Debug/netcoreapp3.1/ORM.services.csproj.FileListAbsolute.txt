@@ -35,5 +35,5 @@ C:\Projects\ORMstudy\ORM.services\obj\Debug\netcoreapp3.1\ORM.services.AssemblyI
 C:\Projects\ORMstudy\ORM.services\obj\Debug\netcoreapp3.1\ORM.services.csproj.CopyComplete
 C:\Projects\ORMstudy\ORM.services\obj\Debug\netcoreapp3.1\ORM.services.dll
 C:\Projects\ORMstudy\ORM.services\obj\Debug\netcoreapp3.1\ORM.services.pdb
-C:\Projects\ORMstudy\ORM.services\bin\Debug\netcoreapp3.1\ORM.data.dll
-C:\Projects\ORMstudy\ORM.services\bin\Debug\netcoreapp3.1\ORM.data.pdb
+C:\Projects\ORMstudy\ORM.services\bin\Debug\netcoreapp3.1\ORM.entity.dll
+C:\Projects\ORMstudy\ORM.services\bin\Debug\netcoreapp3.1\ORM.entity.pdb

@@ -9,8 +9,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using ORM.entity.Models;
+using ORM.entity.Permissions;
 using ORM.services.Services;
 using ORM.web.Controllers.BaseController;
+using ORM.web.Policies;
 
 namespace ORM.web.Controllers
 {
@@ -32,6 +34,7 @@ namespace ORM.web.Controllers
 
         [HttpGet]
         [Authorize]
+        [Authorize(Policy = Permissions.canGetAllUsers)]
         public ActionResult GetAll()
         {
             try
@@ -58,7 +61,7 @@ namespace ORM.web.Controllers
 
         [Route("{id}")]
         [HttpGet]
-        [Authorize]
+        [Authorize(Policy = Permissions.canGetSingleUser)]
         public ActionResult Get(long id)
         {
             try

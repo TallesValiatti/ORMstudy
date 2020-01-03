@@ -1,0 +1,517 @@
+2020-01-03T09:04:10.8280547-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:04:10.8540061-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:04:10.8560273-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:04:11.3439580-03:00 80000002-0002-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-03T09:04:11.3397328-03:00 80000002-0003-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:04:11.8247309-03:00 80000002-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:04:27.1630949-03:00 80000003-0002-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-03T09:04:27.4371548-03:00 80000003-0002-ff00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 20 itens (35549300)
+2020-01-03T09:06:24.2098804-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:06:24.2246447-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:06:24.2285464-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:06:24.3854315-03:00 80000003-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:06:24.5570913-03:00 80000005-0002-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:07:46.8701245-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:07:46.8845779-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:07:46.8885728-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:07:47.0747295-03:00 80000002-0001-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:07:47.2417752-03:00 80000007-0002-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:08:35.0007115-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:08:35.0467584-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:08:35.0687870-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:08:35.2844998-03:00 80000008-0003-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:08:35.5125714-03:00 8000000a-0003-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:08:46.1983806-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:08:46.2126122-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:08:46.2146675-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:08:46.3845019-03:00 80000007-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:08:46.5599144-03:00 8000000c-0003-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:08:54.9276085-03:00 8000000b-0002-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-03T09:09:08.8997261-03:00 8000000c-0002-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-03T09:09:09.1694127-03:00 8000000c-0002-ff00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 20 itens (35549300)
+2020-01-03T09:10:10.5026843-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:10:10.5175683-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:10:10.5196197-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:10:10.6901870-03:00 80000002-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:10:10.8608111-03:00 8000000e-0003-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:10:34.5660740-03:00 8000000f-0002-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-03T09:10:44.9173020-03:00 80000010-0002-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-03T09:10:45.1860601-03:00 80000010-0002-ff00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 20 itens (35549300)
+2020-01-03T09:38:44.4761916-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:38:44.4964628-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:38:44.5002373-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:38:44.6647671-03:00 80000010-0003-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:38:44.8132166-03:00 80000009-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:38:50.3220216-03:00 80000004-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-03T09:40:07.1720823-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:40:07.1886354-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:40:07.1910426-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:40:07.3616394-03:00 80000012-0002-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:40:07.5147540-03:00 80000014-0002-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:40:11.9611522-03:00 80000006-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-03T09:40:32.8560432-03:00 80000007-0000-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:40:39.3386283-03:00 80000008-0000-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:43:29.6186401-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:43:29.6327743-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:43:29.6357894-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:43:29.8147685-03:00 8000000a-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:43:29.9814273-03:00 8000000c-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:43:33.9470844-03:00 8000000e-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-03T09:44:00.3210934-03:00 8000000f-0000-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:44:04.9406661-03:00 80000010-0000-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:45:52.9781674-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:45:52.9968631-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:45:52.9986073-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:45:53.1715685-03:00 80000002-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:45:53.3307882-03:00 80000014-0003-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:46:56.1579428-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:46:56.1752649-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:46:56.1779229-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:46:56.3583028-03:00 80000012-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:46:56.5088927-03:00 80000017-0002-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:47:02.3178559-03:00 8000000b-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-03T09:48:01.2010242-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:48:01.2216916-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:48:01.2241436-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:48:01.4791023-03:00 80000019-0003-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:48:01.7710617-03:00 80000004-0001-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:48:14.3891528-03:00 80000014-0000-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:49:43.0623848-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:49:43.0772242-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:49:43.0793114-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:49:43.2642158-03:00 8000001b-0003-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:49:43.4198002-03:00 80000016-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:50:11.8067631-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:50:11.8252404-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:50:11.8279423-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:50:12.0764351-03:00 80000018-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:50:12.2370843-03:00 8000000f-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:50:17.3339436-03:00 8000001a-0000-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:50:59.3530089-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:50:59.3647582-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:50:59.3667727-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:50:59.5482750-03:00 8000001a-0002-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:50:59.7271672-03:00 8000001c-0002-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:51:03.8421930-03:00 8000001c-0000-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:51:28.1793060-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:51:28.1916178-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:51:28.1934830-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:51:28.3674014-03:00 8000001d-0003-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:51:28.5169867-03:00 80000012-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:51:33.9245318-03:00 80000014-0001-ff00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:51:52.9674927-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:51:52.9812311-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:51:52.9832426-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:51:53.1634021-03:00 8000001f-0003-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:51:53.3362505-03:00 80000021-0003-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:51:56.9682817-03:00 8000001e-0002-ff00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:52:00.0566754-03:00 8000001f-0002-ff00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:53:46.3559454-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:53:46.3717100-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:53:46.3745791-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:53:46.5510166-03:00 8000000a-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:53:46.6922807-03:00 80000023-0003-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:53:50.4414904-03:00 80000004-0002-fe00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:53:52.8240173-03:00 80000005-0002-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-03T09:54:06.3513834-03:00 80000006-0002-fe00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:54:11.5764014-03:00 80000007-0002-fe00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:54:49.9567666-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:54:49.9703985-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:54:49.9722652-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:54:50.1764417-03:00 80000006-0000-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:54:50.3837542-03:00 80000008-0000-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:54:54.3505588-03:00 80000009-0002-fe00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:54:58.0454160-03:00 8000000a-0002-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-03T09:55:08.3724620-03:00 8000000b-0002-fe00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:55:10.7666102-03:00 8000000c-0002-fe00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:55:51.3679526-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:55:51.3829710-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:55:51.3848702-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:55:51.5563292-03:00 8000000a-0000-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:55:51.7263268-03:00 80000016-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:55:56.0679512-03:00 80000018-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-03T09:55:58.9266620-03:00 80000018-0001-ff00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 20 itens (35549300)
+2020-01-03T09:56:21.4546118-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:56:21.4658109-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:56:21.4677819-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:56:21.6244980-03:00 80000006-0001-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:56:21.7805889-03:00 80000023-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:56:25.2037477-03:00 80000025-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-03T09:56:28.6348957-03:00 80000025-0000-fd00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 20 itens (35549300)
+2020-01-03T09:57:03.0802830-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:57:03.0954903-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:57:03.0972184-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:57:03.2626394-03:00 8000001b-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:57:03.4428534-03:00 80000002-0003-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:57:09.2874604-03:00 80000004-0003-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-03T09:57:12.1083693-03:00 80000004-0003-fd00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 20 itens (35549300)
+2020-01-03T09:57:15.5647937-03:00 80000005-0003-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-03T09:57:24.4131295-03:00 80000006-0003-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-03T09:57:24.6491256-03:00 80000006-0003-fd00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 20 itens (35549300)
+2020-01-03T09:57:57.3321307-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:57:57.3450443-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:57:57.3467370-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:57:57.5047584-03:00 80000027-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:57:57.6475945-03:00 80000029-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:58:00.7922444-03:00 80000004-0002-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The AuthorizationPolicy named: 'canGetAllUsers' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-03T09:59:16.4727691-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:59:16.5137997-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:59:16.5190237-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:59:16.6994760-03:00 80000006-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:59:16.8764347-03:00 8000002b-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T09:59:47.3225290-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T09:59:47.3412117-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T09:59:47.3436346-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T09:59:47.5694085-03:00 80000008-0001-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T09:59:47.7652506-03:00 8000002d-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T10:05:11.1888107-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-03T10:05:11.2030323-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-03T10:05:11.2054473-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-03T10:05:11.4003162-03:00 8000001e-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-03T10:05:11.5747571-03:00 80000008-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-03T10:05:22.7824015-03:00 8000002f-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-03T10:05:32.7455451-03:00 80000030-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-03T10:05:37.2938731-03:00 80000031-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-03T10:05:37.5294636-03:00 80000031-0000-fd00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 20 itens (35549300)
+2020-01-03T10:05:49.4029198-03:00 80000033-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-03T10:05:50.2788572-03:00 80000033-0000-fd00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 20 itens (35549300)

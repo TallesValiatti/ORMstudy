@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORM.web", "ORM.web\ORM.web.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORM.repo", "ORM.repo\ORM.repo.csproj", "{5A0F0BF1-A852-4310-B08D-68EBE0DF703B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORM.data", "ORM.entity\ORM.data.csproj", "{EF8E165E-4C04-4B81-9403-C9A17DC7ACD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORM.entity", "ORM.entity\ORM.entity.csproj", "{EF8E165E-4C04-4B81-9403-C9A17DC7ACD6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORM.services", "ORM.services\ORM.services.csproj", "{12830FEB-ED5E-4074-A517-E336216165EF}"
 EndProject
