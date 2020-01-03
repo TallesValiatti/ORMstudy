@@ -2,6 +2,6 @@ Simple study API
 
 Features:
 - Entity Framework Core
-- Onion Architecture 
-- JWT auth
+- Architecture based on onion architecture 
+- JWT authentication and policies(claims and roles) authorization
 - Requests middleware logging (to text file)
