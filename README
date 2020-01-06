@@ -8,3 +8,4 @@ Features:
 - Middleware Requests logging (to text file)
 - Simple unit and integration tests, using xUnit.
 - Conversion between models and viewModels using AutoMapper
+- Fluent Validations (https://fluentvalidation.net/aspnet) on the POST method

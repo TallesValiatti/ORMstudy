@@ -88,3 +88,1517 @@ BODY:  (7a340cf2)
 ****** request *******
 PATH: /favicon.ico 
 BODY:  (623ac0c6)
+2020-01-06T10:51:33.5149626-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T10:51:33.5320012-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T10:51:33.5538832-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T10:51:34.0199173-03:00 8000002c-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T10:51:34.1993382-03:00 80000041-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T10:52:01.0948081-03:00 80000058-0003-fa00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-06T10:52:23.4693878-03:00 80000059-0003-fa00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-06T10:52:24.0638811-03:00 80000059-0003-fa00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 20 itens (35549300)
+2020-01-06T10:52:28.6305428-03:00 8000005a-0003-fa00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user/1 
+BODY:  (41f807b7)
+2020-01-06T10:52:32.5507106-03:00 8000005a-0003-fa00-b63f-84710c7967bb [INF] Listagem do usuarios com id: 1 (613e2315)
+2020-01-06T10:53:09.6337117-03:00 8000005c-0003-fa00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "talles",
+    "password": "123",
+    "email": "talles@talles.com",
+    "nameUpCase": "TALLES",
+    "nameLowCase": "talles"
+} (40aa8fdf)
+2020-01-06T10:53:35.3134572-03:00 8000005c-0003-fa00-b63f-84710c7967bb [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserViewModel -> UserModel
+ORM.entity.ViewModels.UserViewModel -> ORM.entity.Models.UserModel (3766bc69)
+2020-01-06T10:55:26.1898324-03:00 8000005d-0003-fa00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "talles",
+    "password": "123",
+    "email": "talles@talles.com",
+    "nameUpCase": "TALLES",
+    "nameLowCase": "talles"
+} (40aa8fdf)
+2020-01-06T10:55:47.1004048-03:00 8000005d-0003-fa00-b63f-84710c7967bb [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserViewModel -> UserModel
+ORM.entity.ViewModels.UserViewModel -> ORM.entity.Models.UserModel (3766bc69)
+2020-01-06T10:58:46.1799684-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T10:58:46.1984130-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T10:58:46.2007651-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T10:58:46.3803016-03:00 8000002e-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T10:58:46.5238822-03:00 80000030-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T10:59:02.6306361-03:00 80000030-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-06T10:59:14.7843618-03:00 80000031-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user/1 
+BODY:  (41f807b7)
+2020-01-06T10:59:17.9168103-03:00 80000031-0001-fc00-b63f-84710c7967bb [INF] Listagem do usuarios com id: 1 (613e2315)
+2020-01-06T10:59:24.0451588-03:00 80000032-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "talles",
+    "password": "123",
+    "email": "talles@talles.com",
+    "nameUpCase": "TALLES",
+    "nameLowCase": "talles"
+} (40aa8fdf)
+2020-01-06T10:59:28.9243282-03:00 80000032-0001-fc00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("238"ms) [Parameters=["@p0='?', @p1='?', @p2='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tbluser (email, name, password)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (627a98df)
+2020-01-06T10:59:29.2294715-03:00 80000032-0001-fc00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"ORM.repo.Context.ApplicationContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint \"tbluser_name_key\"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint \"tbluser_name_key\"
+    Detail: Key (name)=(talles) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_name_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "tbluser_name_key"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "tbluser_name_key"
+    Detail: Key (name)=(talles) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_name_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at ORM.repo.Repository.Repository`1.ORM.repo.Repository.IRepository<T>.Insert(T entity) in C:\Projects\ORMstudy\ORM.repo\Repository\Repositorio.cs:line 48
+   at ORM.services.Services.UserServices.Insert(UserModel user) in C:\Projects\ORMstudy\ORM.services\Services\UserServices\UserServices.cs:line 45
+   at ORM.web.Controllers.UserController.Post(UserViewModel entity) in C:\Projects\ORMstudy\ORM.web\Controllers\UserController.cs:line 94
+2020-01-06T10:59:41.2469388-03:00 80000032-0001-fc00-b63f-84710c7967bb [ERR] An error occurred while updating the entries. See the inner exception for details. (5d65ae99)
+2020-01-06T10:59:44.3640489-03:00 80000033-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "talles",
+    "password": "123",
+    "email": "talles@talles.com",
+    "nameUpCase": "TALLES",
+    "nameLowCase": "talles"
+} (40aa8fdf)
+2020-01-06T11:00:06.5541320-03:00 80000033-0001-fc00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("217"ms) [Parameters=["@p0='?', @p1='?', @p2='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tbluser (email, name, password)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (627a98df)
+2020-01-06T11:00:06.8056463-03:00 80000033-0001-fc00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"ORM.repo.Context.ApplicationContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint \"tbluser_name_key\"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint \"tbluser_name_key\"
+    Detail: Key (name)=(talles) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_name_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "tbluser_name_key"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "tbluser_name_key"
+    Detail: Key (name)=(talles) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_name_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at ORM.repo.Repository.Repository`1.ORM.repo.Repository.IRepository<T>.Insert(T entity) in C:\Projects\ORMstudy\ORM.repo\Repository\Repositorio.cs:line 48
+2020-01-06T11:00:06.8773715-03:00 80000033-0001-fc00-b63f-84710c7967bb [ERR] An error occurred while updating the entries. See the inner exception for details. (5d65ae99)
+2020-01-06T11:00:41.6022317-03:00 80000035-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-06T11:00:51.8767620-03:00 80000036-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "talles1234",
+    "password": "12333333",
+    "email": "talle212121212s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles1234"
+} (1a8e9d03)
+2020-01-06T11:01:00.7821654-03:00 80000036-0001-fc00-b63f-84710c7967bb [INF] Inserindo usuario (0e465585)
+2020-01-06T11:01:08.4115427-03:00 80000037-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /use 
+BODY:  (58e161b9)
+2020-01-06T11:01:13.7434271-03:00 80000038-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-06T11:01:14.6354128-03:00 80000038-0001-fc00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 21 itens (b6fc22fe)
+2020-01-06T11:02:20.8220736-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T11:02:20.8409761-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T11:02:20.8433610-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T11:02:21.0288194-03:00 8000003a-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T11:02:21.1745245-03:00 8000003c-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T11:02:26.1533311-03:00 80000069-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-06T11:02:29.9819668-03:00 80000069-0003-fc00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 21 itens (b6fc22fe)
+2020-01-06T11:02:44.9249630-03:00 8000006a-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "talles12341",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (09995983)
+2020-01-06T11:02:53.4862200-03:00 8000006a-0003-fc00-b63f-84710c7967bb [INF] Inserindo usuario (0e465585)
+2020-01-06T11:06:40.3179820-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T11:06:40.3393350-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T11:06:40.3418065-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T11:06:40.5164438-03:00 8000003e-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T11:06:40.6878743-03:00 80000032-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T11:06:49.8588516-03:00 8000006c-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-06T11:07:03.1063301-03:00 8000006d-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-06T11:07:03.7140988-03:00 8000006d-0003-fc00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 22 itens (4f3bb9b0)
+2020-01-06T11:07:59.0285318-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T11:07:59.0410248-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T11:07:59.0427595-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T11:07:59.2019969-03:00 80000046-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T11:07:59.3450724-03:00 80000048-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T11:08:32.0569139-03:00 8000004a-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-06T11:08:35.3512914-03:00 8000004a-0000-fd00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 22 itens (4f3bb9b0)
+2020-01-06T11:08:41.7192993-03:00 8000004b-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (80fb1574)
+2020-01-06T11:08:50.0854737-03:00 8000004d-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-06T11:08:59.0425228-03:00 8000004e-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (80fb1574)
+2020-01-06T11:09:07.0995063-03:00 8000004f-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "asasas",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (f25b82f3)
+2020-01-06T11:09:13.0277264-03:00 8000004f-0000-fd00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("234"ms) [Parameters=["@p0='?', @p1='?', @p2='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tbluser (email, name, password)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (627a98df)
+2020-01-06T11:09:13.3320865-03:00 8000004f-0000-fd00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"ORM.repo.Context.ApplicationContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint \"tbluser_email_key\"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint \"tbluser_email_key\"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "tbluser_email_key"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "tbluser_email_key"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at ORM.repo.Repository.Repository`1.ORM.repo.Repository.IRepository<T>.Insert(T entity) in C:\Projects\ORMstudy\ORM.repo\Repository\Repositorio.cs:line 48
+   at ORM.services.Services.UserServices.Insert(UserModel user) in C:\Projects\ORMstudy\ORM.services\Services\UserServices\UserServices.cs:line 45
+   at ORM.web.Controllers.UserController.Post(UserViewModel entity) in C:\Projects\ORMstudy\ORM.web\Controllers\UserController.cs:line 94
+2020-01-06T11:09:27.5919755-03:00 8000004f-0000-fd00-b63f-84710c7967bb [ERR] An error occurred while updating the entries. See the inner exception for details. (5d65ae99)
+2020-01-06T11:09:30.0100081-03:00 80000050-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "asasas",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (f25b82f3)
+2020-01-06T11:11:10.4219262-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T11:11:10.4402096-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T11:11:10.4428321-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T11:11:10.6233056-03:00 80000035-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T11:11:10.7910134-03:00 80000052-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T11:11:14.8055488-03:00 80000065-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "asasas",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (f25b82f3)
+2020-01-06T11:11:23.3397965-03:00 80000065-0001-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("236"ms) [Parameters=["@p0='?', @p1='?', @p2='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tbluser (email, name, password)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (627a98df)
+2020-01-06T11:11:23.6772163-03:00 80000065-0001-ff00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"ORM.repo.Context.ApplicationContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint \"tbluser_email_key\"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint \"tbluser_email_key\"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "tbluser_email_key"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "tbluser_email_key"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at ORM.repo.Repository.Repository`1.ORM.repo.Repository.IRepository<T>.Insert(T entity) in C:\Projects\ORMstudy\ORM.repo\Repository\Repositorio.cs:line 48
+   at ORM.services.Services.UserServices.Insert(UserModel user) in C:\Projects\ORMstudy\ORM.services\Services\UserServices\UserServices.cs:line 45
+   at ORM.web.Controllers.UserController.Post(UserViewModel entity) in C:\Projects\ORMstudy\ORM.web\Controllers\UserController.cs:line 96
+2020-01-06T11:11:23.7390888-03:00 80000065-0001-ff00-b63f-84710c7967bb [ERR] An error occurred while updating the entries. See the inner exception for details. (5d65ae99)
+2020-01-06T11:11:30.4285643-03:00 80000066-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (80fb1574)
+2020-01-06T11:11:38.6748971-03:00 80000067-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+  
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (a0c05f34)
+2020-01-06T11:12:35.5973420-03:00 80000068-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "asasasaasas",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+  
+    "nameLowCase": "talles12341"
+} (445502c9)
+2020-01-06T11:12:42.5473922-03:00 80000068-0001-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("217"ms) [Parameters=["@p0='?', @p1='?', @p2='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tbluser (email, name, password)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (627a98df)
+2020-01-06T11:12:42.7820269-03:00 80000068-0001-ff00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"ORM.repo.Context.ApplicationContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint \"tbluser_email_key\"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint \"tbluser_email_key\"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "tbluser_email_key"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "tbluser_email_key"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at ORM.repo.Repository.Repository`1.ORM.repo.Repository.IRepository<T>.Insert(T entity) in C:\Projects\ORMstudy\ORM.repo\Repository\Repositorio.cs:line 48
+   at ORM.services.Services.UserServices.Insert(UserModel user) in C:\Projects\ORMstudy\ORM.services\Services\UserServices\UserServices.cs:line 45
+   at ORM.web.Controllers.UserController.Post(UserViewModel entity) in C:\Projects\ORMstudy\ORM.web\Controllers\UserController.cs:line 96
+2020-01-06T11:12:42.8376314-03:00 80000068-0001-ff00-b63f-84710c7967bb [ERR] An error occurred while updating the entries. See the inner exception for details. (5d65ae99)
+2020-01-06T11:13:00.6464099-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T11:13:00.6581458-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T11:13:00.6608028-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T11:13:00.8309229-03:00 8000005d-0001-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T11:13:00.9835495-03:00 8000005f-0001-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T11:13:18.1629801-03:00 80000061-0001-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "asasasaasas",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+  
+    "nameLowCase": "talles12341"
+} (445502c9)
+2020-01-06T11:13:53.4671062-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T11:13:53.4842205-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T11:13:53.4876381-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T11:13:53.6779224-03:00 80000029-0000-f900-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T11:13:53.8588949-03:00 8000006f-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T11:14:06.4629462-03:00 80000037-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (80fb1574)
+2020-01-06T11:14:14.6905818-03:00 80000037-0002-fd00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("240"ms) [Parameters=["@p0='?', @p1='?', @p2='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tbluser (email, name, password)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (627a98df)
+2020-01-06T11:14:15.0101834-03:00 80000037-0002-fd00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"ORM.repo.Context.ApplicationContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint \"tbluser_email_key\"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint \"tbluser_email_key\"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "tbluser_email_key"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "tbluser_email_key"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at ORM.repo.Repository.Repository`1.ORM.repo.Repository.IRepository<T>.Insert(T entity) in C:\Projects\ORMstudy\ORM.repo\Repository\Repositorio.cs:line 48
+   at ORM.services.Services.UserServices.Insert(UserModel user) in C:\Projects\ORMstudy\ORM.services\Services\UserServices\UserServices.cs:line 45
+   at ORM.web.Controllers.UserController.Post(UserViewModel entity) in C:\Projects\ORMstudy\ORM.web\Controllers\UserController.cs:line 96
+2020-01-06T11:14:15.0864563-03:00 80000037-0002-fd00-b63f-84710c7967bb [ERR] An error occurred while updating the entries. See the inner exception for details. (5d65ae99)
+2020-01-06T11:14:31.6997162-03:00 80000038-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (3de9b03e)
+2020-01-06T11:14:33.1676957-03:00 80000038-0002-fd00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("215"ms) [Parameters=["@p0='?', @p1='?', @p2='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tbluser (email, name, password)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (627a98df)
+2020-01-06T11:14:33.3993042-03:00 80000038-0002-fd00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"ORM.repo.Context.ApplicationContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column \"name\" violates not-null constraint
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column \"name\" violates not-null constraint
+    Detail: Failing row contains (37, null, 123333331, talle2121212121s@talles.com).
+    SchemaName: public
+    TableName: tbluser
+    ColumnName: name
+    File: execMain.c
+    Line: 1974
+    Routine: ExecConstraints
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "name" violates not-null constraint
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "name" violates not-null constraint
+    Detail: Failing row contains (37, null, 123333331, talle2121212121s@talles.com).
+    SchemaName: public
+    TableName: tbluser
+    ColumnName: name
+    File: execMain.c
+    Line: 1974
+    Routine: ExecConstraints
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at ORM.repo.Repository.Repository`1.ORM.repo.Repository.IRepository<T>.Insert(T entity) in C:\Projects\ORMstudy\ORM.repo\Repository\Repositorio.cs:line 48
+   at ORM.services.Services.UserServices.Insert(UserModel user) in C:\Projects\ORMstudy\ORM.services\Services\UserServices\UserServices.cs:line 45
+   at ORM.web.Controllers.UserController.Post(UserViewModel entity) in C:\Projects\ORMstudy\ORM.web\Controllers\UserController.cs:line 96
+2020-01-06T11:14:33.4512287-03:00 80000038-0002-fd00-b63f-84710c7967bb [ERR] An error occurred while updating the entries. See the inner exception for details. (5d65ae99)
+2020-01-06T11:14:43.7863271-03:00 80000039-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    
+    "password": "123333331",
+    
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (f7c677c8)
+2020-01-06T11:31:22.3031123-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T11:31:22.3172028-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T11:31:22.3190633-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T11:31:22.5054745-03:00 80000063-0001-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T11:31:22.6616915-03:00 8000005f-0003-fa00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T11:31:27.6294573-03:00 80000055-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-06T11:31:44.1753282-03:00 80000056-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    
+    "password": "123333331",
+    
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (f7c677c8)
+2020-01-06T11:32:05.6969334-03:00 80000057-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "asasas",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (f25b82f3)
+2020-01-06T11:32:08.5928463-03:00 80000057-0000-fd00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("219"ms) [Parameters=["@p0='?', @p1='?', @p2='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tbluser (email, name, password)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (627a98df)
+2020-01-06T11:32:08.8774460-03:00 80000057-0000-fd00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"ORM.repo.Context.ApplicationContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint \"tbluser_email_key\"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint \"tbluser_email_key\"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "tbluser_email_key"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "tbluser_email_key"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at ORM.repo.Repository.Repository`1.ORM.repo.Repository.IRepository<T>.Insert(T entity) in C:\Projects\ORMstudy\ORM.repo\Repository\Repositorio.cs:line 48
+   at ORM.services.Services.UserServices.Insert(UserModel user) in C:\Projects\ORMstudy\ORM.services\Services\UserServices\UserServices.cs:line 45
+   at ORM.web.Controllers.UserController.Post(UserViewModel entity) in C:\Projects\ORMstudy\ORM.web\Controllers\UserController.cs:line 96
+2020-01-06T11:32:08.9458297-03:00 80000057-0000-fd00-b63f-84710c7967bb [ERR] An error occurred while updating the entries. See the inner exception for details. (5d65ae99)
+2020-01-06T11:32:15.8967625-03:00 80000058-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (80fb1574)
+2020-01-06T11:32:27.1633301-03:00 80000059-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "   ",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (7c5825e6)
+2020-01-06T11:32:34.2150855-03:00 8000005a-0000-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "  a ",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (1b3dcc57)
+2020-01-06T11:32:40.9737977-03:00 8000005a-0000-fd00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("206"ms) [Parameters=["@p0='?', @p1='?', @p2='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tbluser (email, name, password)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (627a98df)
+2020-01-06T11:32:41.1985397-03:00 8000005a-0000-fd00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"ORM.repo.Context.ApplicationContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint \"tbluser_email_key\"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint \"tbluser_email_key\"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "tbluser_email_key"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "tbluser_email_key"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at ORM.repo.Repository.Repository`1.ORM.repo.Repository.IRepository<T>.Insert(T entity) in C:\Projects\ORMstudy\ORM.repo\Repository\Repositorio.cs:line 48
+   at ORM.services.Services.UserServices.Insert(UserModel user) in C:\Projects\ORMstudy\ORM.services\Services\UserServices\UserServices.cs:line 45
+   at ORM.web.Controllers.UserController.Post(UserViewModel entity) in C:\Projects\ORMstudy\ORM.web\Controllers\UserController.cs:line 96
+2020-01-06T11:32:41.2631172-03:00 8000005a-0000-fd00-b63f-84710c7967bb [ERR] An error occurred while updating the entries. See the inner exception for details. (5d65ae99)
+2020-01-06T11:33:17.4521209-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T11:33:17.4670191-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T11:33:17.4697261-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T11:33:17.6404823-03:00 8000002b-0000-f900-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T11:33:17.8037721-03:00 8000003b-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T11:33:26.2912333-03:00 80000065-0001-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "  a aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+    "nameUpCase": "TALLES1234",
+    "nameLowCase": "talles12341"
+} (8db5f713)
+2020-01-06T11:34:17.0346477-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T11:34:17.0533832-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T11:34:17.0554428-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T11:34:17.2298882-03:00 80000067-0001-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T11:34:17.3914760-03:00 8000003d-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T11:34:43.7982879-03:00 8000002d-0000-f900-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "  a aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com",
+   
+   
+} (9b825f24)
+2020-01-06T11:34:50.9164501-03:00 8000002e-0000-f900-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "  a aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com"
+   
+   
+} (8dfe1372)
+2020-01-06T11:34:56.5918342-03:00 8000002f-0000-f900-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "  a ",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com"
+   
+   
+} (7cc9b82c)
+2020-01-06T11:35:08.2605387-03:00 8000002f-0000-f900-b63f-84710c7967bb [ERR] Failed executing DbCommand ("218"ms) [Parameters=["@p0='?', @p1='?', @p2='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tbluser (email, name, password)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (627a98df)
+2020-01-06T11:35:08.5706721-03:00 8000002f-0000-f900-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"ORM.repo.Context.ApplicationContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint \"tbluser_email_key\"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint \"tbluser_email_key\"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "tbluser_email_key"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "tbluser_email_key"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at ORM.repo.Repository.Repository`1.ORM.repo.Repository.IRepository<T>.Insert(T entity) in C:\Projects\ORMstudy\ORM.repo\Repository\Repositorio.cs:line 48
+   at ORM.services.Services.UserServices.Insert(UserModel user) in C:\Projects\ORMstudy\ORM.services\Services\UserServices\UserServices.cs:line 45
+   at ORM.web.Controllers.UserController.Post(UserViewModel entity) in C:\Projects\ORMstudy\ORM.web\Controllers\UserController.cs:line 96
+2020-01-06T11:35:08.6264821-03:00 8000002f-0000-f900-b63f-84710c7967bb [ERR] An error occurred while updating the entries. See the inner exception for details. (5d65ae99)
+2020-01-06T11:35:48.7956980-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T11:35:48.8141238-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T11:35:48.8180699-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T11:35:48.9959700-03:00 80000069-0001-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T11:35:49.1687337-03:00 8000002d-0002-f900-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T11:35:53.2983073-03:00 80000072-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+    "name": "  a ",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com"
+   
+   
+} (7cc9b82c)
+2020-01-06T11:36:04.1671742-03:00 80000072-0003-fc00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("214"ms) [Parameters=["@p0='?', @p1='?', @p2='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tbluser (email, name, password)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (627a98df)
+2020-01-06T11:36:04.4955483-03:00 80000072-0003-fc00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"ORM.repo.Context.ApplicationContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint \"tbluser_email_key\"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint \"tbluser_email_key\"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "tbluser_email_key"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "tbluser_email_key"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at ORM.repo.Repository.Repository`1.ORM.repo.Repository.IRepository<T>.Insert(T entity) in C:\Projects\ORMstudy\ORM.repo\Repository\Repositorio.cs:line 48
+   at ORM.services.Services.UserServices.Insert(UserModel user) in C:\Projects\ORMstudy\ORM.services\Services\UserServices\UserServices.cs:line 45
+   at ORM.web.Controllers.UserController.Post(UserViewModel entity) in C:\Projects\ORMstudy\ORM.web\Controllers\UserController.cs:line 96
+2020-01-06T11:36:04.5543612-03:00 80000072-0003-fc00-b63f-84710c7967bb [ERR] An error occurred while updating the entries. See the inner exception for details. (5d65ae99)
+2020-01-06T11:36:20.6011174-03:00 80000073-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+	"id":12
+    "name": "  a ",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com"
+   
+   
+} (284c41a8)
+2020-01-06T11:36:32.5178696-03:00 80000074-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+	"id":"12"
+    "name": "  a ",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com"
+   
+   
+} (92d7e632)
+2020-01-06T11:36:40.4021150-03:00 80000075-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+	"id":"12",
+    "name": "  a ",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com"
+   
+   
+} (70586c9f)
+2020-01-06T11:37:04.4622828-03:00 80000076-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+	"id":"1",
+    "name": "  a ",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com"
+   
+   
+} (9a67d230)
+2020-01-06T11:37:09.9172680-03:00 80000077-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+	"id":1,
+    "name": "  a ",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com"
+   
+   
+} (697f67b5)
+2020-01-06T11:37:18.6510299-03:00 80000078-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+	"id":0,
+    "name": "  a ",
+    "password": "123333331",
+    "email": "talle2121212121s@talles.com"
+   
+   
+} (66a49a78)
+2020-01-06T11:37:21.0276358-03:00 80000078-0003-fc00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("210"ms) [Parameters=["@p0='?', @p1='?', @p2='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tbluser (email, name, password)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (627a98df)
+2020-01-06T11:37:21.2501179-03:00 80000078-0003-fc00-b63f-84710c7967bb [ERR] An exception occurred in the database while saving changes for context type '"ORM.repo.Context.ApplicationContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint \"tbluser_email_key\"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint \"tbluser_email_key\"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "tbluser_email_key"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "tbluser_email_key"
+    Detail: Key (email)=(talle2121212121s@talles.com) already exists.
+    SchemaName: public
+    TableName: tbluser
+    ConstraintName: tbluser_email_key
+    File: nbtinsert.c
+    Line: 570
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at ORM.repo.Repository.Repository`1.ORM.repo.Repository.IRepository<T>.Insert(T entity) in C:\Projects\ORMstudy\ORM.repo\Repository\Repositorio.cs:line 48
+2020-01-06T11:37:21.3209142-03:00 80000078-0003-fc00-b63f-84710c7967bb [ERR] An error occurred while updating the entries. See the inner exception for details. (5d65ae99)
+2020-01-06T11:39:05.4287237-03:00 80000079-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+	"id":0,
+    "name": "  a ",
+    "password": "123333331",
+    "email": "talle2121212121stalles.com"
+   
+   
+} (66563c8a)

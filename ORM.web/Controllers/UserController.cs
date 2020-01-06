@@ -15,6 +15,7 @@ using ORM.web.Controllers.BaseController;
 using ORM.web.Policies;
 using AutoMapper;
 using ORM.entity.AutoMapping;
+using ORM.entity.ViewModels;
 
 namespace ORM.web.Controllers
 {
@@ -42,7 +43,7 @@ namespace ORM.web.Controllers
             try
             {
                 var lstUsers = _userService.GetAll();
-                var lstUserViewModel = UserAutoMapping.MappingListToViewModel(lstUsers.ToList());
+                var lstUserViewModel = UserAutoMapping.MappingListModelToListViewModel(lstUsers);
 
                _log.LogInformation("Listagem de todos os Usuarios: " + lstUserViewModel.Count() + " itens");
 
@@ -67,7 +68,7 @@ namespace ORM.web.Controllers
             try
             {
                 var obj = _userService.Get(id);
-                var ObjViewModel = UserAutoMapping.MappingObjectToViewModel(obj);
+                var ObjViewModel = UserAutoMapping.MappingModelToViewModel(obj);
 
                 _log.LogInformation("Listagem do usuarios com id: " + id);
 
@@ -83,25 +84,28 @@ namespace ORM.web.Controllers
                 });
             }
         }
-        //[HttpPost]
-        //[Authorize]
-        //public ActionResult Post([FromBody] UserModel entity)
-        //{
-        //    try
-        //    {
-        //        _userService.Insert(entity);
-        //        _log.LogInformation("Inserindo usuario");
-        //        return Ok();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _log.LogError(ex.Message);
-        //        return StatusCode(StatusCodes.Status500InternalServerError, new
-        //        {
-        //            Error = ex.Message
-        //        });
-        //    }
+        [HttpPost]
+        [Authorize]
+        public ActionResult Post([FromBody] UserViewModel entity)
+        {
+            try
+            {
+                var a = ModelState.IsValid;
 
-        //}
+                var ObjModel = UserAutoMapping.MappingViewModelToModel(entity);
+                _userService.Insert(ObjModel);
+                _log.LogInformation("Inserindo usuario");
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                _log.LogError(ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError, new
+                {
+                    Error = ex.Message
+                });
+            }
+
+        }
     }
 }
