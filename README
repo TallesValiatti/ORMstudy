@@ -5,5 +5,6 @@ Features:
 - Entity Framework Core
 - Architecture based on onion architecture 
 - JWT authentication and policies(claims and roles) authorization
-- Requests middleware logging (to text file)
-- Simple unit tests using xUnit.
+- Middleware Requests logging (to text file)
+- Simple unit and integration tests, using xUnit.
+- Conversion between models and viewModels using AutoMapper

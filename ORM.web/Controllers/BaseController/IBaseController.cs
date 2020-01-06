@@ -13,7 +13,5 @@ namespace ORM.web.Controllers.BaseController
         ActionResult GetAll();
         [HttpGet]
         ActionResult Get(long id);
-        [HttpPost]
-        ActionResult Post([FromBody] T entity);
     }
 }

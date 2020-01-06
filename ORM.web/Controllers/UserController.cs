@@ -13,6 +13,8 @@ using ORM.entity.Permissions;
 using ORM.services.Services;
 using ORM.web.Controllers.BaseController;
 using ORM.web.Policies;
+using AutoMapper;
+using ORM.entity.AutoMapping;
 
 namespace ORM.web.Controllers
 {
@@ -20,7 +22,7 @@ namespace ORM.web.Controllers
     [Route("[controller]")]
     public class UserController : ControllerBase, IBaseController<UserModel>
     {
-       
+
         #region Services
         private readonly IUserService _userService;
         private readonly ILogger<UserController> _log;
@@ -39,15 +41,13 @@ namespace ORM.web.Controllers
         {
             try
             {
-                //Claims
-                var a = User.Identity as ClaimsIdentity;
-                var claims = a.Claims;
-
                 var lstUsers = _userService.GetAll();
+                var lstUserViewModel = UserAutoMapping.MappingListToViewModel(lstUsers.ToList());
 
-                _log.LogInformation("Listagem de todos os Usuarios: " + lstUsers.Count() + " itens");
+               _log.LogInformation("Listagem de todos os Usuarios: " + lstUserViewModel.Count() + " itens");
 
-                return Ok(lstUsers);
+                //return a list of view models
+                return new OkObjectResult(lstUserViewModel);
             }
             catch (Exception ex)
             {
@@ -67,10 +67,12 @@ namespace ORM.web.Controllers
             try
             {
                 var obj = _userService.Get(id);
+                var ObjViewModel = UserAutoMapping.MappingObjectToViewModel(obj);
 
                 _log.LogInformation("Listagem do usuarios com id: " + id);
 
-                return Ok(obj);
+                //return a view model
+                return Ok(ObjViewModel);
             }
             catch (Exception ex)
             {
@@ -81,25 +83,25 @@ namespace ORM.web.Controllers
                 });
             }
         }
-        [HttpPost]
-        [Authorize]
-        public ActionResult Post([FromBody] UserModel entity)
-        {
-            try
-            {
-                _userService.Insert(entity);
-                _log.LogInformation("Inserindo usuario");
-                return Ok();
-            }
-            catch (Exception ex)
-            {
-                _log.LogError(ex.Message);
-                return StatusCode(StatusCodes.Status500InternalServerError, new
-                {
-                    Error = ex.Message
-                });
-            }
+        //[HttpPost]
+        //[Authorize]
+        //public ActionResult Post([FromBody] UserModel entity)
+        //{
+        //    try
+        //    {
+        //        _userService.Insert(entity);
+        //        _log.LogInformation("Inserindo usuario");
+        //        return Ok();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        _log.LogError(ex.Message);
+        //        return StatusCode(StatusCodes.Status500InternalServerError, new
+        //        {
+        //            Error = ex.Message
+        //        });
+        //    }
 
-        }
+        //}
     }
 }

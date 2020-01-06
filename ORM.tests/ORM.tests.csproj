@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ORM.services\ORM.services.csproj" />
+    <ProjectReference Include="..\ORM.web\ORM.web.csproj" />
   </ItemGroup>
 
 </Project>
