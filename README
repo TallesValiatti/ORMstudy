@@ -1,5 +1,5 @@
 Simple study API
-t
+
 Features:
 - Asp.Net Core 3.1
 - Entity Framework Core
@@ -8,3 +8,5 @@ Features:
 - Middleware Requests logging (to text file)
 - Simple unit and integration tests, using xUnit.
 - Conversion between models and viewModels using AutoMapper
+
+teste
