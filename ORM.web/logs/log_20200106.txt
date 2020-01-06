@@ -77,3 +77,14 @@ BODY:  (41f807b7)
 PATH: /user 
 BODY:  (6b378109)
 2020-01-06T09:10:50.2451637-03:00 80000032-0001-fe00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 20 itens (35549300)
+2020-01-06T09:55:56.0821523-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T09:55:56.1036791-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T09:55:56.1079503-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T09:55:58.1607954-03:00 80000034-0001-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T09:55:58.5500361-03:00 80000036-0001-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)

@@ -8,4 +8,3 @@ Features:
 - Middleware Requests logging (to text file)
 - Simple unit and integration tests, using xUnit.
 - Conversion between models and viewModels using AutoMapper
-auteracao feita
