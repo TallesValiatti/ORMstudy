@@ -1602,3 +1602,241 @@ BODY: {
    
    
 } (66563c8a)
+2020-01-06T15:04:18.4013368-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T15:04:18.4181086-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T15:04:18.4208210-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T15:04:18.6874922-03:00 80000019-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T15:04:18.9137537-03:00 80000040-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T15:04:27.0295238-03:00 8000001b-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-06T15:04:41.3218985-03:00 8000001c-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY: {
+	"id":0,
+    "name": "  a ",
+    "password": "123333331",
+    "email": "talle2121212121stalles.com"
+   
+   
+} (66563c8a)
+2020-01-06T15:04:49.7096333-03:00 8000001d-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-06T15:04:50.3850816-03:00 8000001d-0000-ff00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 22 itens (4f3bb9b0)
+2020-01-06T16:24:09.3950034-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T16:24:09.4077985-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T16:24:09.4098177-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T16:24:09.5950394-03:00 8000002f-0002-f900-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T16:24:09.7834811-03:00 8000001f-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T16:24:15.0678170-03:00 80000021-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-06T16:24:26.9814931-03:00 80000022-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-06T16:25:15.0831861-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T16:25:15.1016192-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T16:25:15.1042035-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T16:25:15.3077330-03:00 8000006b-0001-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T16:25:15.5018019-03:00 80000024-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T16:25:37.8332184-03:00 8000006d-0001-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-06T16:25:43.6725662-03:00 8000006d-0001-fe00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 11 itens (1e87ce84)
+2020-01-06T16:29:25.5426331-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T16:29:25.5568744-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T16:29:25.5588780-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T16:29:25.7303885-03:00 8000006f-0001-fe00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T16:29:25.9038890-03:00 80000026-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T16:29:37.7163171-03:00 80000043-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-06T16:29:42.3712299-03:00 80000043-0002-fd00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 11 itens (1e87ce84)
+2020-01-06T16:33:23.4884395-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T16:33:23.5060533-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T16:33:23.5087422-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T16:33:23.8850361-03:00 8000007d-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T16:33:24.3631032-03:00 8000007f-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T16:33:33.6116374-03:00 80000081-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-06T16:33:46.5433148-03:00 80000082-0003-fc00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ORM.web.Controllers.UserController.Get (ORM.web)
+ORM.web.Controllers.UserController.GetByName (ORM.web)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-06T16:34:27.3344344-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T16:34:27.3592240-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T16:34:27.3616692-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T16:34:27.5564043-03:00 80000084-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T16:34:27.7175025-03:00 80000028-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T16:34:36.5489729-03:00 80000042-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user/name/talles 
+BODY:  (8b305ca2)
+2020-01-06T16:34:54.6904674-03:00 80000042-0001-fc00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios com nome talles: 4 itens (5f98dd58)
+2020-01-06T16:35:59.9267711-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T16:35:59.9440368-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T16:35:59.9479170-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T16:36:00.1612033-03:00 80000086-0003-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T16:36:00.3238468-03:00 80000031-0002-f900-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T16:57:59.5127966-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T16:57:59.5268781-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T16:57:59.5294624-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T16:57:59.7046977-03:00 80000033-0002-f900-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T16:57:59.8784534-03:00 80000044-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T16:58:09.6032093-03:00 8000002a-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-06T17:03:44.5148454-03:00 8000002c-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (f01128fd)
+2020-01-06T17:03:54.4048901-03:00 8000002d-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user/name/talles 
+BODY:  (8b305ca2)
+2020-01-06T17:03:54.9945913-03:00 8000002d-0000-ff00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios com nome talles: 4 itens (5f98dd58)
+2020-01-06T17:03:57.5210502-03:00 8000002e-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user/name/tallese 
+BODY:  (f7e011af)
+2020-01-06T17:03:57.8048707-03:00 8000002e-0000-ff00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios com nome tallese: 0 itens (ebe17c6e)
+2020-01-06T17:04:02.1735189-03:00 8000002f-0000-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user/name/talles 
+BODY:  (8b305ca2)
+2020-01-06T17:04:02.5051986-03:00 8000002f-0000-ff00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios com nome talles: 4 itens (5f98dd58)
+2020-01-06T17:06:41.7875137-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T17:06:41.8097917-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T17:06:41.8121148-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T17:06:42.0318219-03:00 80000048-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T17:06:42.2122449-03:00 80000046-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T17:06:47.8518152-03:00 80000048-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-06T17:07:02.4815573-03:00 80000048-0001-fc00-b63f-84710c7967bb [ERR] The connection does not have any active transactions. (70c547ef)
+2020-01-06T17:08:35.3248412-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T17:08:35.3441891-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T17:08:35.3469653-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T17:08:35.5483033-03:00 8000004a-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T17:08:35.7558409-03:00 8000004a-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T17:08:38.3203515-03:00 8000004c-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-06T17:08:41.7646750-03:00 8000004c-0001-fc00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 22 itens (4f3bb9b0)
+2020-01-06T17:08:48.8533385-03:00 8000004d-0001-fc00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)
+2020-01-06T17:08:53.5218183-03:00 8000004d-0001-fc00-b63f-84710c7967bb [INF] Listagem de todos os Usuarios: 22 itens (4f3bb9b0)
+2020-01-06T17:09:40.2050379-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T17:09:40.2329196-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T17:09:40.2359527-03:00  [INF] Content root path: "C:\Projects\ORMstudy\ORM.web" (b5d60022)
+2020-01-06T17:09:40.6530952-03:00 8000004c-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (7a340cf2)
+2020-01-06T17:09:40.9590168-03:00 8000004e-0002-fd00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (623ac0c6)
+2020-01-06T17:09:46.3767751-03:00 8000006c-0001-ff00-b63f-84710c7967bb [INF] 
+****** request *******
+PATH: /user 
+BODY:  (6b378109)

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ORM.entity.Models
 {
-    public class BaseModel
+    public abstract class BaseModel
     {
         [Key]
         public int id { get; set; }

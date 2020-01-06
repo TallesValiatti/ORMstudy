@@ -16,6 +16,8 @@ using ORM.web.Policies;
 using AutoMapper;
 using ORM.entity.AutoMapping;
 using ORM.entity.ViewModels;
+using System.Collections;
+using System.Linq.Expressions;
 
 namespace ORM.web.Controllers
 {
@@ -41,7 +43,7 @@ namespace ORM.web.Controllers
         public ActionResult GetAll()
         {
             try
-            {
+            {  
                 var lstUsers = _userService.GetAll();
                 var lstUserViewModel = UserAutoMapping.MappingListModelToListViewModel(lstUsers);
 
@@ -71,6 +73,8 @@ namespace ORM.web.Controllers
                 var ObjViewModel = UserAutoMapping.MappingModelToViewModel(obj);
 
                 _log.LogInformation("Listagem do usuarios com id: " + id);
+
+
 
                 //return a view model
                 return Ok(ObjViewModel);
@@ -106,6 +110,34 @@ namespace ORM.web.Controllers
                 });
             }
 
+        }
+
+        [Route("name/{name}")]
+        [HttpGet]
+        [Authorize(Policy = Permissions.canGetSingleUser)]
+        public ActionResult GetByName(string name)
+        {
+            try
+            {
+                Expression<Func<UserModel, bool>> getCustom = x => x.name.Contains(name);
+
+          
+                var lstUsers = _userService.GetCustom(getCustom);
+                var lstUserViewModel = UserAutoMapping.MappingListModelToListViewModel(lstUsers);
+
+                _log.LogInformation("Listagem de todos os Usuarios com nome "+ name + ": " + lstUserViewModel.Count() + " itens");
+
+                //return a list of view models
+                return new OkObjectResult(lstUserViewModel);
+            }
+            catch (Exception ex)
+            {
+                _log.LogError(ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError, new
+                {
+                    Error = ex.Message
+                });
+            }
         }
     }
 }

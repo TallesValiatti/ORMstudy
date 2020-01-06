@@ -4,6 +4,7 @@ using ORM.repo.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace ORM.repo.Repository
@@ -18,6 +19,8 @@ namespace ORM.repo.Repository
             this.context = context;
             entities = context.Set<T>();
         }
+
+      
         void IRepository<T>.Delete(T entity)
         {
             if (entity == null)
@@ -33,9 +36,18 @@ namespace ORM.repo.Repository
             return entities.SingleOrDefault(s => s.id == id);
         }
 
-        IEnumerable<T> IRepository<T>.GetAll()
+        IQueryable<T> IRepository<T>.GetAll()
         {
-            return entities.AsEnumerable();
+            //context.Database.BeginTransaction();
+            //var a = context.Database.CurrentTransaction;
+            //context.Database.CloseConnection();
+
+            return entities.AsQueryable();
+        }
+
+        IQueryable<T> IRepository<T>.GetCustom(Expression<Func<T,bool>> predicate)
+        {
+            return entities.Where(predicate).AsQueryable();
         }
 
         void IRepository<T>.Insert(T entity)
