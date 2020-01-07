@@ -9,3 +9,13 @@ Features:
 - Simple unit and integration tests, using xUnit.
 - Conversion between models and viewModels using AutoMapper
 - Fluent Validations (https://fluentvalidation.net/aspnet) on the POST method
+- Docker support
+
+To test de API:
+ - POST: 
+	URL: http://167.71.121.156:1788/login
+	BODY: {"name":"talles","password":"123"}
+
+- GET:
+	URL:  http://167.71.121.156:1788/user
+	(Remember to use the bearer token on authenticantion header)

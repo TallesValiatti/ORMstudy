@@ -1840,3 +1840,114 @@ BODY:  (623ac0c6)
 ****** request *******
 PATH: /user 
 BODY:  (6b378109)
+2020-01-06T21:17:37.8031950-03:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-01-06T21:17:37.8097400-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T21:17:37.8125110-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-01-06T21:17:37.8167590-03:00  [INF] Content root path: "/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.web" (b5d60022)
+2020-01-06T21:17:38.1021730-03:00 0HLSJ0S07N2DT:00000001 [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (39d0bb40)
+2020-01-06T21:17:39.5949490-03:00 0HLSJ0S07N2DU:00000001 [INF] 
+****** request *******
+PATH: /weatherforecast 
+BODY:  (39d0bb40)
+2020-01-06T21:17:39.8557100-03:00 0HLSJ0S07N2DU:00000002 [INF] 
+****** request *******
+PATH: /favicon.ico 
+BODY:  (03ab89bd)
+2020-01-06T21:18:32.1215500-03:00 0HLSJ0S07N2E1:00000001 [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"user":"talles",
+	"password":"123"
+} (82427ffc)
+2020-01-06T21:21:01.8033580-03:00 0HLSJ0S07N2E1:00000002 [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"user":"talles",
+	"password":"123"
+} (82427ffc)
+2020-01-06T21:21:42.5328610-03:00 0HLSJ0S07N2E1:00000003 [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (924cc0b5)
+2020-01-06T21:22:16.2045820-03:00 0HLSJ0S07N2E1:00000004 [INF] 
+****** request *******
+PATH: /user 
+BODY:  (7629de55)
+2020-01-06T21:22:17.7983490-03:00 0HLSJ0S07N2E1:00000004 [INF] Listagem de todos os Usuarios: 22 itens (4f3bb9b0)
+2020-01-06T21:22:27.8180660-03:00 0HLSJ0S07N2E1:00000005 [INF] 
+****** request *******
+PATH: /user/name/talles 
+BODY:  (1a2df61c)
+2020-01-06T21:22:28.3823640-03:00 0HLSJ0S07N2E1:00000005 [INF] Listagem de todos os Usuarios com nome talles: 4 itens (5f98dd58)
+2020-01-06T21:22:35.3583550-03:00 0HLSJ0S07N2E1:00000006 [INF] 
+****** request *******
+PATH: /user/name/1 
+BODY:  (0d29f18c)
+2020-01-06T21:22:35.6433770-03:00 0HLSJ0S07N2E1:00000006 [INF] Listagem de todos os Usuarios com nome 1: 11 itens (fe12a5ec)
+2020-01-06T21:23:00.7336670-03:00 0HLSJ0S07N2E1:00000007 [INF] 
+****** request *******
+PATH: /user/name/1 
+BODY:  (0d29f18c)
+2020-01-06T21:23:02.0103710-03:00 0HLSJ0S07N2E1:00000007 [INF] Listagem de todos os Usuarios com nome 1: 11 itens (fe12a5ec)
+2020-01-06T21:23:06.0826570-03:00 0HLSJ0S07N2E1:00000008 [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (924cc0b5)
+2020-01-06T21:23:07.9619150-03:00 0HLSJ0S07N2E1:00000009 [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (924cc0b5)
+2020-01-06T21:23:11.5074340-03:00 0HLSJ0S07N2E1:0000000A [INF] 
+****** request *******
+PATH: /user/name/1 
+BODY:  (0d29f18c)
+2020-01-06T21:23:11.7956860-03:00 0HLSJ0S07N2E1:0000000A [INF] Listagem de todos os Usuarios com nome 1: 11 itens (fe12a5ec)
+2020-01-06T21:23:12.9503240-03:00 0HLSJ0S07N2E1:0000000B [INF] 
+****** request *******
+PATH: /user/name/1 
+BODY:  (0d29f18c)
+2020-01-06T21:23:13.2381470-03:00 0HLSJ0S07N2E1:0000000B [INF] Listagem de todos os Usuarios com nome 1: 11 itens (fe12a5ec)
+2020-01-06T21:23:14.0282160-03:00 0HLSJ0S07N2E1:0000000C [INF] 
+****** request *******
+PATH: /user/name/1 
+BODY:  (0d29f18c)
+2020-01-06T21:23:14.3619050-03:00 0HLSJ0S07N2E1:0000000C [INF] Listagem de todos os Usuarios com nome 1: 11 itens (fe12a5ec)
+2020-01-06T21:23:14.9925150-03:00 0HLSJ0S07N2E1:0000000D [INF] 
+****** request *******
+PATH: /user/name/1 
+BODY:  (0d29f18c)
+2020-01-06T21:23:15.2727680-03:00 0HLSJ0S07N2E1:0000000D [INF] Listagem de todos os Usuarios com nome 1: 11 itens (fe12a5ec)
+2020-01-06T21:23:15.9964560-03:00 0HLSJ0S07N2E1:0000000E [INF] 
+****** request *******
+PATH: /user/name/1 
+BODY:  (0d29f18c)
+2020-01-06T21:23:16.4021770-03:00 0HLSJ0S07N2E1:0000000E [INF] Listagem de todos os Usuarios com nome 1: 11 itens (fe12a5ec)
+2020-01-06T21:23:17.0244400-03:00 0HLSJ0S07N2E1:0000000F [INF] 
+****** request *******
+PATH: /user/name/1 
+BODY:  (0d29f18c)
+2020-01-06T21:23:17.3310430-03:00 0HLSJ0S07N2E1:0000000F [INF] Listagem de todos os Usuarios com nome 1: 11 itens (fe12a5ec)
+2020-01-06T21:23:17.9943880-03:00 0HLSJ0S07N2E1:00000010 [INF] 
+****** request *******
+PATH: /user/name/1 
+BODY:  (0d29f18c)
+2020-01-06T21:23:18.2721310-03:00 0HLSJ0S07N2E1:00000010 [INF] Listagem de todos os Usuarios com nome 1: 11 itens (fe12a5ec)
+2020-01-06T21:23:22.4642450-03:00 0HLSJ0S07N2E1:00000011 [INF] 
+****** request *******
+PATH: /user/name/1 
+BODY:  (0d29f18c)
+2020-01-06T21:23:22.7495260-03:00 0HLSJ0S07N2E1:00000011 [INF] Listagem de todos os Usuarios com nome 1: 11 itens (fe12a5ec)

@@ -3432,10 +3432,7 @@
         },
         "runtime": {
           "bin/placeholder/ORM.entity.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "ORM.repo/1.0.0": {
         "type": "project",
@@ -3467,10 +3464,7 @@
         },
         "runtime": {
           "bin/placeholder/ORM.services.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "ORM.web/1.0.0": {
         "type": "project",
@@ -10492,36 +10486,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\talles.valiatti\\.nuget\\packages\\": {}
+    "/Users/tallesvaliatti/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\ORMstudy\\ORM.tests\\ORM.tests.csproj",
+      "projectUniqueName": "/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.tests/ORM.tests.csproj",
       "projectName": "ORM.tests",
-      "projectPath": "C:\\Projects\\ORMstudy\\ORM.tests\\ORM.tests.csproj",
-      "packagesPath": "C:\\Users\\talles.valiatti\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\ORMstudy\\ORM.tests\\obj\\",
+      "projectPath": "/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.tests/ORM.tests.csproj",
+      "packagesPath": "/Users/tallesvaliatti/.nuget/packages/",
+      "outputPath": "/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.tests/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\talles.valiatti\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/tallesvaliatti/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Projects\\ORMstudy\\ORM.services\\ORM.services.csproj": {
-              "projectPath": "C:\\Projects\\ORMstudy\\ORM.services\\ORM.services.csproj"
+            "/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.services/ORM.services.csproj": {
+              "projectPath": "/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.services/ORM.services.csproj"
             },
-            "C:\\Projects\\ORMstudy\\ORM.web\\ORM.web.csproj": {
-              "projectPath": "C:\\Projects\\ORMstudy\\ORM.web\\ORM.web.csproj"
+            "/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.web/ORM.web.csproj": {
+              "projectPath": "/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.web/ORM.web.csproj"
             }
           }
         }
@@ -10567,14 +10563,11 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -10583,7 +10576,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'FluentValidation.WebApi 8.6.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'FluentValidation.WebApi 8.6.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "FluentValidation.WebApi",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

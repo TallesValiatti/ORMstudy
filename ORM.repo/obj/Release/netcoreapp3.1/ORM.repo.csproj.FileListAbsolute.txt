@@ -1,0 +1,11 @@
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.repo/bin/Release/netcoreapp3.1/ORM.repo.deps.json
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.repo/bin/Release/netcoreapp3.1/ORM.repo.dll
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.repo/bin/Release/netcoreapp3.1/ORM.repo.pdb
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.repo/bin/Release/netcoreapp3.1/ORM.entity.dll
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.repo/bin/Release/netcoreapp3.1/ORM.entity.pdb
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.repo/obj/Release/netcoreapp3.1/ORM.repo.csprojAssemblyReference.cache
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.repo/obj/Release/netcoreapp3.1/ORM.repo.AssemblyInfoInputs.cache
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.repo/obj/Release/netcoreapp3.1/ORM.repo.AssemblyInfo.cs
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.repo/obj/Release/netcoreapp3.1/ORM.repo.csproj.CopyComplete
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.repo/obj/Release/netcoreapp3.1/ORM.repo.dll
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.repo/obj/Release/netcoreapp3.1/ORM.repo.pdb

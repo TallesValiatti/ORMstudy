@@ -1,0 +1,8 @@
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.entity/bin/Release/netcoreapp3.1/ORM.entity.deps.json
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.entity/bin/Release/netcoreapp3.1/ORM.entity.dll
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.entity/bin/Release/netcoreapp3.1/ORM.entity.pdb
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.entity/obj/Release/netcoreapp3.1/ORM.entity.csprojAssemblyReference.cache
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.entity/obj/Release/netcoreapp3.1/ORM.entity.AssemblyInfoInputs.cache
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.entity/obj/Release/netcoreapp3.1/ORM.entity.AssemblyInfo.cs
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.entity/obj/Release/netcoreapp3.1/ORM.entity.dll
+/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.entity/obj/Release/netcoreapp3.1/ORM.entity.pdb

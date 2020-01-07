@@ -1,0 +1,25 @@
+2020-01-06T21:54:32.5302930-03:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-01-06T21:54:32.5338790-03:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-01-06T21:54:32.5341200-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T21:54:32.5341920-03:00  [INF] Hosting environment: "Production" (c3307c92)
+2020-01-06T21:54:32.5342560-03:00  [INF] Content root path: "/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.web/release" (b5d60022)
+2020-01-06T21:55:01.7834750-03:00  [INF] Application is shutting down... (90f52c38)
+2020-01-06T21:55:36.3464530-03:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-01-06T21:55:36.3496660-03:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-01-06T21:55:36.3499580-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T21:55:36.3500070-03:00  [INF] Hosting environment: "Production" (c3307c92)
+2020-01-06T21:55:36.3500500-03:00  [INF] Content root path: "/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.web/release" (b5d60022)
+2020-01-06T21:55:52.4988460-03:00 0HLSJ1HC08HHG:00000001 [INF] 
+****** request *******
+PATH: /login 
+BODY: {
+	"name":"talles",
+	"password":"123"
+} (924cc0b5)
+2020-01-06T21:56:05.2270450-03:00  [INF] Application is shutting down... (90f52c38)
+2020-01-06T22:16:57.2521020-03:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-01-06T22:16:57.2553210-03:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-01-06T22:16:57.2555280-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-01-06T22:16:57.2555670-03:00  [INF] Hosting environment: "Production" (c3307c92)
+2020-01-06T22:16:57.2556080-03:00  [INF] Content root path: "/Users/tallesvaliatti/Projects/ORMstudy/ORMstudy/ORM.web/release" (b5d60022)
+2020-01-06T22:17:05.3833200-03:00  [INF] Application is shutting down... (90f52c38)
